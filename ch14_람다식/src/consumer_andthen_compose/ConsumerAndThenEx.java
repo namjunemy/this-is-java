@@ -1,4 +1,4 @@
-package andthen_compose;
+package consumer_andthen_compose;
 
 import java.util.function.Consumer;
 
