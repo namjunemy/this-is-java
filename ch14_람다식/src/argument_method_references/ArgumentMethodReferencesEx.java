@@ -9,14 +9,14 @@ public class ArgumentMethodReferencesEx {
     function = (a, b) -> a.compareToIgnoreCase(b);
     print(function.applyAsInt("java8", "JAVA8"));
 
-    function = String :: compareToIgnoreCase;
+    function = String::compareToIgnoreCase;
     print(function.applyAsInt("java8", "JAVA8"));
   }
 
   public static void print(int order) {
-    if(order < 0) {
+    if (order < 0) {
       System.out.println("사전순으로 먼저 옵니다.");
-    } else if(order == 0) {
+    } else if (order == 0) {
       System.out.println("동일한 문자열 입니다.");
     } else {
       System.out.println("사전순으로 나중에 옵니다.");

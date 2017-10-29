@@ -15,7 +15,7 @@ public class MethodReferencesEx {
     operator = (x, y) -> obj.instanceMethod(x, y);
     System.out.println("결과3: " + operator.applyAsInt(5, 6));
 
-    operator = obj :: instanceMethod;
+    operator = obj::instanceMethod;
     System.out.println("결과4: " + operator.applyAsInt(7, 8));
   }
 }
