@@ -1,7 +1,5 @@
 package example;
 
-import com.sun.istack.internal.NotNull;
-
 import java.util.Arrays;
 import java.util.List;
 
